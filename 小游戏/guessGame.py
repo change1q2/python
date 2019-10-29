@@ -12,6 +12,5 @@ guess = int(num )
 if guess == 8:
     print("你真棒")
 elif guess >8:
-
 else :
     print("请认真点输入需要的数字哦")
