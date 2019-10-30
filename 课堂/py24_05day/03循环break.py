@@ -36,7 +36,11 @@ continue:中止当前本轮循环，开启下一轮循环
 #     print('n-------',n,s)
 #
 # print(s)
+<<<<<<< .merge_file_a01444
 
+=======
+'''
+>>>>>>> .merge_file_a12100
 n = 0
 
 while n < 10:
@@ -48,4 +52,9 @@ else:
     print('while循环对应的else')
 
 
+<<<<<<< .merge_file_a01444
 print('aaa')
+=======
+print('aaa')
+'''
+>>>>>>> .merge_file_a12100
