@@ -24,11 +24,11 @@ while True:
     for item in users:
         if name1 == item['name']:
             print('用户名已存在，请重新输入！')  # 账号存在，重新输入
-        break
-        else:
+            break
+    else:
         pwd = input('请输入密码：')  # 输入密码
         pwd2 = input('请再次确认密码：')  # 再次确认密码
-        if
+            if
 
-        else:
-            print("你两次输入的密码不一致")
+            else:
+                 print("你两次输入的密码不一致")
