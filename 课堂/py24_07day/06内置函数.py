@@ -27,26 +27,29 @@ Company:湖南零檬信息技术有限公司
 # eval：识别字符串中的python表达式
 # li = "[11,22,33]"
 # eval(li)  # ====>[11,22,33]
+dic = "{'a':11,'b':22}"
+eval(dic)
+print(dic)
 # s3 = "print('python666')"
 # eval(s3)  # ====》print('python666')
 # s4 = "python"
 # eval(s4) # ===>python
 #
 # s1 = "[11,22,33]"
-# s2 = "{'a':11,'b':22}"
+s2 = "{'a':11,'b':22}"
 # s3 = "print('python666')"
 #
 # print('------')
 # print(res,type(res))
 
 
- #zip: 聚合打包
+#  #zip: 聚合打包
 li = ["name", "age", "gender","8888","sadasd"]
 li2 = ["木森", 18, "男"]
 
 # 把上面的列表转换为一个字典？li中的元素作为键，li2中的元素作为值
 
 res2 = zip(li, li2)
-# print(list(res2))
-
+print(list(res2))
+#
 print(dict(res2))

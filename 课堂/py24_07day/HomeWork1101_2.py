@@ -10,10 +10,15 @@
 请封装一个函数，按上述要求实现数据的格式转换
 ============================
 """
-#li1 = ["{'a':11,'b':2}","[11,22,33,44]"]
-
-def func(a):
-    print("a",a)
-
 li1 = ["{'a':11,'b':2}","[11,22,33,44]"]
-func(*li1)
+
+def func(li1):
+   li2 = []
+   for i in li1:
+       res = eval(i)
+       li2.append(res)
+       return li2
+print(func(li1))
+
+
+
