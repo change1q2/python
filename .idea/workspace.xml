@@ -2,16 +2,9 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="c896be86-ca28-440f-bf05-4e3dc4ad5bba" name="Default Changelist" comment="">
-      <change afterPath="$PROJECT_DIR$/.idea/encodings.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/小甲鱼/第012讲：列表：一个打了激素的数组3.py" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/课堂/py24_07day/HomeWork1101_3.py" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/课堂/py24_08day/HomeWork/HomeWork1101_2.py" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/课堂/py24_08day/HomeWork/HomeWork1104_01.py" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/课堂/py24_08day/HomeWork/HomeWork1104_02.py" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/课堂/py24_08day/HomeWork/case.txt" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/小甲鱼/CheckPassword.py" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/自己刷题练习/test.py" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/课堂/py24_07day/06内置函数.py" beforeDir="false" afterPath="$PROJECT_DIR$/课堂/py24_07day/06内置函数.py" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/课堂/py24_07day/HomeWork1101_2.py" beforeDir="false" afterPath="$PROJECT_DIR$/课堂/py24_07day/HomeWork1101_2.py" afterDir="false" />
     </list>
     <option name="EXCLUDED_CONVERTED_TO_IGNORED" value="true" />
     <option name="SHOW_DIALOG" value="false" />
@@ -20,21 +13,57 @@
     <option name="LAST_RESOLUTION" value="IGNORE" />
   </component>
   <component name="FileEditorManager">
-    <leaf>
+    <leaf SIDE_TABS_SIZE_LIMIT_KEY="300">
       <file pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/课堂/py24_08day/HomeWork/HomeWork1104_02.py">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="775">
+            <state relative-caret-position="874">
               <caret line="46" selection-start-line="46" selection-end-line="46" />
             </state>
           </provider>
         </entry>
       </file>
-      <file pinned="false" current-in-tab="true">
+      <file pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/课堂/py24_08day/03文件操作/031文件读取和关闭.py">
           <provider selected="true" editor-type-id="text-editor">
             <state relative-caret-position="76">
-              <caret line="4" column="24" lean-forward="true" selection-start-line="4" selection-start-column="24" selection-end-line="4" selection-end-column="24" />
+              <caret line="4" column="24" selection-start-line="4" selection-start-column="24" selection-end-line="4" selection-end-column="24" />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/小甲鱼/CheckPassword.py">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="430">
+              <caret line="36" column="32" lean-forward="true" selection-start-line="36" selection-start-column="32" selection-end-line="36" selection-end-column="32" />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file pinned="false" current-in-tab="true">
+        <entry file="file://$PROJECT_DIR$/自己刷题练习/test.py">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="335">
+              <caret line="40" column="30" selection-start-line="40" selection-start-column="30" selection-end-line="40" selection-end-column="30" />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file pinned="false" current-in-tab="false">
+        <entry file="file://$APPLICATION_HOME_DIR$/helpers/pydev/pydevd.py">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="423">
+              <caret line="1757" selection-start-line="1757" selection-end-line="1757" />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file pinned="false" current-in-tab="false">
+        <entry file="file://$APPLICATION_HOME_DIR$/helpers/pydev/_pydev_imps/_pydev_execfile.py">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="323">
+              <caret line="17" selection-start-line="17" selection-end-line="17" />
             </state>
           </provider>
         </entry>
@@ -82,12 +111,16 @@
         <option value="$PROJECT_DIR$/课堂/py24_08day/HomeWork/HomeWork1101_2.py" />
         <option value="$PROJECT_DIR$/课堂/py24_08day/HomeWork/case.txt" />
         <option value="$PROJECT_DIR$/课堂/py24_08day/HomeWork/HomeWork1104_02.py" />
+        <option value="$PROJECT_DIR$/小甲鱼/制作密码.py" />
+        <option value="$PROJECT_DIR$/小甲鱼/Password.py" />
+        <option value="$PROJECT_DIR$/小甲鱼/CheckPassword.py" />
+        <option value="$PROJECT_DIR$/自己刷题练习/test.py" />
       </list>
     </option>
   </component>
-  <component name="ProjectFrameBounds" extendedState="6">
-    <option name="x" value="744" />
-    <option name="y" value="3" />
+  <component name="ProjectFrameBounds">
+    <option name="x" value="278" />
+    <option name="y" value="5" />
     <option name="width" value="1171" />
     <option name="height" value="1038" />
   </component>
@@ -96,6 +129,7 @@
       <foldersAlwaysOnTop value="true" />
     </navigator>
     <panes>
+      <pane id="Scope" />
       <pane id="ProjectPane">
         <subPane>
           <expand>
@@ -111,26 +145,12 @@
             <path>
               <item name="wor" type="b2602c69:ProjectViewProjectNode" />
               <item name="wor" type="462c0819:PsiDirectoryNode" />
-              <item name="课堂" type="462c0819:PsiDirectoryNode" />
-            </path>
-            <path>
-              <item name="wor" type="b2602c69:ProjectViewProjectNode" />
-              <item name="wor" type="462c0819:PsiDirectoryNode" />
-              <item name="课堂" type="462c0819:PsiDirectoryNode" />
-              <item name="py24_08day" type="462c0819:PsiDirectoryNode" />
-            </path>
-            <path>
-              <item name="wor" type="b2602c69:ProjectViewProjectNode" />
-              <item name="wor" type="462c0819:PsiDirectoryNode" />
-              <item name="课堂" type="462c0819:PsiDirectoryNode" />
-              <item name="py24_08day" type="462c0819:PsiDirectoryNode" />
-              <item name="03文件操作" type="462c0819:PsiDirectoryNode" />
+              <item name="自己刷题练习" type="462c0819:PsiDirectoryNode" />
             </path>
           </expand>
           <select />
         </subPane>
       </pane>
-      <pane id="Scope" />
     </panes>
   </component>
   <component name="PropertiesComponent">
@@ -156,7 +176,28 @@
       </list>
     </option>
   </component>
-  <component name="RunManager" selected="Python.HomeWork1104_02">
+  <component name="RunManager" selected="Python.test">
+    <configuration name="CheckPassword" type="PythonConfigurationType" factoryName="Python" temporary="true">
+      <module name="LemonPyWork" />
+      <option name="INTERPRETER_OPTIONS" value="" />
+      <option name="PARENT_ENVS" value="true" />
+      <envs>
+        <env name="PYTHONUNBUFFERED" value="1" />
+      </envs>
+      <option name="SDK_HOME" value="" />
+      <option name="WORKING_DIRECTORY" value="$PROJECT_DIR$/小甲鱼" />
+      <option name="IS_MODULE_SDK" value="true" />
+      <option name="ADD_CONTENT_ROOTS" value="true" />
+      <option name="ADD_SOURCE_ROOTS" value="true" />
+      <option name="SCRIPT_NAME" value="$PROJECT_DIR$/小甲鱼/CheckPassword.py" />
+      <option name="PARAMETERS" value="" />
+      <option name="SHOW_COMMAND_LINE" value="false" />
+      <option name="EMULATE_TERMINAL" value="false" />
+      <option name="MODULE_MODE" value="false" />
+      <option name="REDIRECT_INPUT" value="false" />
+      <option name="INPUT_FILE" value="" />
+      <method v="2" />
+    </configuration>
     <configuration name="HomeWork1101_2" type="PythonConfigurationType" factoryName="Python" temporary="true">
       <module name="LemonPyWork" />
       <option name="INTERPRETER_OPTIONS" value="" />
@@ -220,7 +261,7 @@
       <option name="INPUT_FILE" value="" />
       <method v="2" />
     </configuration>
-    <configuration name="HomeWork1104_1" type="PythonConfigurationType" factoryName="Python" temporary="true">
+    <configuration name="test" type="PythonConfigurationType" factoryName="Python" temporary="true">
       <module name="LemonPyWork" />
       <option name="INTERPRETER_OPTIONS" value="" />
       <option name="PARENT_ENVS" value="true" />
@@ -228,32 +269,11 @@
         <env name="PYTHONUNBUFFERED" value="1" />
       </envs>
       <option name="SDK_HOME" value="" />
-      <option name="WORKING_DIRECTORY" value="$PROJECT_DIR$/课堂/py24_08day/HomeWork" />
+      <option name="WORKING_DIRECTORY" value="$PROJECT_DIR$/自己刷题练习" />
       <option name="IS_MODULE_SDK" value="true" />
       <option name="ADD_CONTENT_ROOTS" value="true" />
       <option name="ADD_SOURCE_ROOTS" value="true" />
-      <option name="SCRIPT_NAME" value="$PROJECT_DIR$/课堂/py24_08day/HomeWork/HomeWork1104_1.py" />
-      <option name="PARAMETERS" value="" />
-      <option name="SHOW_COMMAND_LINE" value="false" />
-      <option name="EMULATE_TERMINAL" value="false" />
-      <option name="MODULE_MODE" value="false" />
-      <option name="REDIRECT_INPUT" value="false" />
-      <option name="INPUT_FILE" value="" />
-      <method v="2" />
-    </configuration>
-    <configuration name="test00001" type="PythonConfigurationType" factoryName="Python" temporary="true">
-      <module name="LemonPyWork" />
-      <option name="INTERPRETER_OPTIONS" value="" />
-      <option name="PARENT_ENVS" value="true" />
-      <envs>
-        <env name="PYTHONUNBUFFERED" value="1" />
-      </envs>
-      <option name="SDK_HOME" value="" />
-      <option name="WORKING_DIRECTORY" value="$PROJECT_DIR$/课堂/py24_08day/03文件操作" />
-      <option name="IS_MODULE_SDK" value="true" />
-      <option name="ADD_CONTENT_ROOTS" value="true" />
-      <option name="ADD_SOURCE_ROOTS" value="true" />
-      <option name="SCRIPT_NAME" value="$PROJECT_DIR$/课堂/py24_08day/03文件操作/test00001.py" />
+      <option name="SCRIPT_NAME" value="$PROJECT_DIR$/自己刷题练习/test.py" />
       <option name="PARAMETERS" value="" />
       <option name="SHOW_COMMAND_LINE" value="false" />
       <option name="EMULATE_TERMINAL" value="false" />
@@ -264,11 +284,11 @@
     </configuration>
     <recent_temporary>
       <list>
+        <item itemvalue="Python.test" />
+        <item itemvalue="Python.CheckPassword" />
         <item itemvalue="Python.HomeWork1104_02" />
         <item itemvalue="Python.HomeWork1101_2" />
         <item itemvalue="Python.HomeWork1104_01" />
-        <item itemvalue="Python.test00001" />
-        <item itemvalue="Python.HomeWork1104_1" />
       </list>
     </recent_temporary>
   </component>
@@ -286,16 +306,15 @@
     <servers />
   </component>
   <component name="ToolWindowManager">
-    <frame x="-8" y="-8" width="1936" height="1056" extended-state="6" />
-    <editor active="true" />
+    <frame x="278" y="5" width="1171" height="1038" extended-state="0" />
     <layout>
-      <window_info active="true" content_ui="combo" id="Project" order="0" visible="true" weight="0.17913593" />
+      <window_info content_ui="combo" id="Project" order="0" visible="true" weight="0.30008826" />
       <window_info id="Structure" order="1" side_tool="true" weight="0.25" />
       <window_info id="Favorites" order="2" side_tool="true" />
       <window_info anchor="bottom" id="Message" order="0" />
       <window_info anchor="bottom" id="Find" order="1" />
-      <window_info anchor="bottom" id="Run" order="2" visible="true" weight="0.32212582" />
-      <window_info anchor="bottom" id="Debug" order="3" weight="0.42407808" />
+      <window_info anchor="bottom" id="Run" order="2" weight="0.32190266" />
+      <window_info anchor="bottom" id="Debug" order="3" weight="0.3141593" />
       <window_info anchor="bottom" id="Cvs" order="4" weight="0.25" />
       <window_info anchor="bottom" id="Inspection" order="5" weight="0.4" />
       <window_info anchor="bottom" id="TODO" order="6" />
@@ -365,13 +384,6 @@
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="323">
           <caret line="17" column="30" lean-forward="true" selection-start-line="17" selection-start-column="30" selection-end-line="17" selection-end-column="30" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$APPLICATION_HOME_DIR$/helpers/pydev/pydevd.py">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="2751">
-          <caret line="1757" selection-start-line="1757" selection-end-line="1757" />
         </state>
       </provider>
     </entry>
@@ -448,11 +460,7 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/课堂/py24_08day/03文件操作/031文件读取和关闭(1).py">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="-570" />
-      </provider>
-    </entry>
+    <entry file="file://$PROJECT_DIR$/课堂/py24_08day/03文件操作/031文件读取和关闭(1).py" />
     <entry file="file://$PROJECT_DIR$/课堂/py24_08day/03文件操作/test0000.py">
       <provider selected="true" editor-type-id="text-editor" />
     </entry>
@@ -504,13 +512,6 @@
         <state relative-caret-position="-166" />
       </provider>
     </entry>
-    <entry file="file://$APPLICATION_HOME_DIR$/helpers/pydev/_pydev_imps/_pydev_execfile.py">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="323">
-          <caret line="17" selection-start-line="17" selection-end-line="17" />
-        </state>
-      </provider>
-    </entry>
     <entry file="file://$USER_HOME$/AppData/Local/Programs/Python/Python37/Lib/codecs.py">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="160">
@@ -525,38 +526,12 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/课堂/py24_08day/HomeWork/HomeWork1104_1.py">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="209">
-          <caret line="20" selection-start-line="20" selection-end-line="26" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/课堂/py24_08day/03文件操作/case.txt">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="95">
-          <caret line="5" column="52" lean-forward="true" selection-start-line="5" selection-start-column="52" selection-end-line="5" selection-end-column="52" />
-        </state>
-      </provider>
-    </entry>
+    <entry file="file://$PROJECT_DIR$/课堂/py24_08day/HomeWork/HomeWork1104_1.py" />
+    <entry file="file://$PROJECT_DIR$/课堂/py24_08day/03文件操作/case.txt" />
     <entry file="file://$PROJECT_DIR$/课堂/py24_08day/HomeWork/HomeWork1104_01.py">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="214">
           <caret line="27" selection-start-line="27" selection-end-line="27" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/课堂/py24_08day/HomeWork/case.txt">
-      <provider selected="true" editor-type-id="text-editor">
-        <state>
-          <caret column="17" selection-end-column="17" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/课堂/py24_08day/HomeWork/HomeWork1104_02.py">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="775">
-          <caret line="46" selection-start-line="46" selection-end-line="46" />
         </state>
       </provider>
     </entry>
@@ -570,10 +545,52 @@
     <entry file="file://$PROJECT_DIR$/课堂/py24_08day/03文件操作/test00001.py">
       <provider selected="true" editor-type-id="text-editor" />
     </entry>
+    <entry file="file://$PROJECT_DIR$/课堂/py24_08day/HomeWork/HomeWork1104_02.py">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="874">
+          <caret line="46" selection-start-line="46" selection-end-line="46" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/课堂/py24_08day/HomeWork/case.txt">
+      <provider selected="true" editor-type-id="text-editor">
+        <state>
+          <caret column="17" selection-end-column="17" />
+        </state>
+      </provider>
+    </entry>
     <entry file="file://$PROJECT_DIR$/课堂/py24_08day/03文件操作/031文件读取和关闭.py">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="76">
-          <caret line="4" column="24" lean-forward="true" selection-start-line="4" selection-start-column="24" selection-end-line="4" selection-end-column="24" />
+          <caret line="4" column="24" selection-start-line="4" selection-start-column="24" selection-end-line="4" selection-end-column="24" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/小甲鱼/CheckPassword.py">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="430">
+          <caret line="36" column="32" lean-forward="true" selection-start-line="36" selection-start-column="32" selection-end-line="36" selection-end-column="32" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$APPLICATION_HOME_DIR$/helpers/pydev/pydevd.py">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="423">
+          <caret line="1757" selection-start-line="1757" selection-end-line="1757" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$APPLICATION_HOME_DIR$/helpers/pydev/_pydev_imps/_pydev_execfile.py">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="323">
+          <caret line="17" selection-start-line="17" selection-end-line="17" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/自己刷题练习/test.py">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="335">
+          <caret line="40" column="30" selection-start-line="40" selection-start-column="30" selection-end-line="40" selection-end-column="30" />
         </state>
       </provider>
     </entry>
