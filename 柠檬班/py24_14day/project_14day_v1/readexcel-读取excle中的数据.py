@@ -8,21 +8,7 @@ Company:湖南零檬信息技术有限公司
 """
 import openpyxl
 
-"""
-为什么要做封装？
-为了使用更加方便，提高代码的重用率。
 
-封装的需求是什么？
-
-1、读取数据的方法
-
-2、写入数据的方法
-
-
-"""
-
-#定义一个读取EXCLE表格的类
-#补充解释ReadExcel类继承object对象，拥有了好多可操作对象，这些都是类中的高级特性，py3中不写也会默认拥有
 class ReadExcel(object):
 
     def __init__(self, filename, sheet_name):
@@ -34,7 +20,6 @@ class ReadExcel(object):
         self.filename = filename
         self.sheet_name = sheet_name
 
-    #读取工作簿线先要打开工作簿
     def open(self):
         """打开工作簿，选中表单"""
         self.wb = openpyxl.load_workbook(self.filename)
@@ -60,7 +45,6 @@ class ReadExcel(object):
             data3 = self.sh.cell(row=i, column=3).value
             data4 = self.sh.cell(row=i, column=4).value
             list_data.append([data1, data2, data3, data4])
-
         # 创建一个字典，用来存储所有的用来数据
         cases = []
         # 获取第一行数据中的表头
@@ -76,23 +60,3 @@ class ReadExcel(object):
 
     def write_data(self):
         pass
-
-
-excel = ReadExcel("cases.xlsx", "login")
-
-cases = excel.read_data()
-print(cases)
-
-"""
-[
-['case_id', 'title', 'data', 'expected'], 
-[1, '正常登录', '("python24", "lemonban")','{"code": 0, "msg": "登录成功"}'],
-[2, '密码错误', '("python24", "123")', '{"code": 1, "msg": "账号或密码不正确"}'],
-[3, '账户名错误', '("python", "lemonban")', '{"code": 1, "msg": "账号或密码不正确"}'],
-[4, '账号为空', '(None, "lemonban")', '{"code": 1, "msg": "所有的参数不能为空"}'], 
-[5, '密码为空', "('python24', None)", '{"code": 1, "msg": "所有的参数不能为空"}']
-]
-
-
-
-"""

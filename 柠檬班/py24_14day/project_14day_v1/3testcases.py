@@ -25,7 +25,7 @@ from login import login_check
 class LoginTestCase(unittest.TestCase):
 
     def __init__(self, methodName, data, expected):
-        super().__init__(methodName)
+        super().__init__(methodName)#重写父类继承原来父类的方法
         self.data = data
         self.expected = expected
 
