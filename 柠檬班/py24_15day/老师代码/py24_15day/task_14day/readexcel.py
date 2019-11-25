@@ -5,9 +5,7 @@ Time:2019/11/18
 E-mail:3247119728@qq.com
 Company:湖南零檬信息技术有限公司
 ============================
-将数据进行参数化，使数据灵活性更高
 """
-
 import openpyxl
 
 
@@ -39,9 +37,7 @@ class ReadExcel(object):
         # 获取最大的行
         max_row = self.sh.max_row
 
-        #将需要的数据转化未程序需要读取的类型
-
-        # 1.读取所有的数据，放到一个列表中
+        # 读取所有的数据，放到一个列表中
         list_data = []
         for i in range(1, max_row + 1):
             data1 = self.sh.cell(row=i, column=1).value
@@ -49,9 +45,9 @@ class ReadExcel(object):
             data3 = self.sh.cell(row=i, column=3).value
             data4 = self.sh.cell(row=i, column=4).value
             list_data.append([data1, data2, data3, data4])
-        # 2.创建一个字典，用来存储所有的用来数据
+        # 创建一个字典，用来存储所有的用来数据
         cases = []
-        # 3.获取第一行数据中的表头
+        # 获取第一行数据中的表头
         title = list_data[0]
         for data in list_data[1:]:
             # 遍历第一行之外的其他行数据，聚合打包成字典
@@ -61,6 +57,6 @@ class ReadExcel(object):
         return cases
 
 
-    #写入数据
+
     def write_data(self):
         pass
